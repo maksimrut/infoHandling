@@ -1,28 +1,31 @@
-package com.rutkouski.infohandling.composite.impl;
+package com.rutkouski.infohandling.composite;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.rutkouski.infohandling.composite.TextComponent;
-import com.rutkouski.infohandling.composite.TypeEnum;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class SymbolLeaf implements TextComponent {
 	
+	static Logger logger = LogManager.getLogger();
 	private TypeEnum type = TypeEnum.SYMBOL;
-	private String symbol;
+	private char symbol;
 	
-	public SymbolLeaf(String symbol) {
+	public SymbolLeaf(char symbol) {
 		this.symbol = symbol;
 	}
 	
 	@Override
 	public boolean add(TextComponent component) {
-		return false;
+		logger.error("Unsupported operation 'add' on symbol");
+		throw new UnsupportedOperationException();
 	}
 
 	@Override
 	public boolean remove(TextComponent component) {
-		return false;
+		logger.error("Unsupported operation 'remove' on symbol");
+		throw new UnsupportedOperationException();
 	}
 
 	@Override
@@ -33,17 +36,13 @@ public class SymbolLeaf implements TextComponent {
 	}
 
 	@Override
-	public int getComponentsSize() {
-		throw new UnsupportedOperationException();
-	}
-
-	@Override
 	public TypeEnum getType() {
 		return type;
 	}
 
 	@Override
 	public String toStringRepresentation() {
-		return symbol;
+		return String.valueOf(symbol);
 	}
+
 }

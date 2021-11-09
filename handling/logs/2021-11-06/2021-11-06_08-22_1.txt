@@ -1,0 +1,3 @@
+2021-11-06 08:22:21 [main] [readText] [45] INFO  rutkouski.infohandling.reader.impl.CustomFileReaderImpl - Reading file is successful
+2021-11-06 08:22:44 [main] [readText] [45] INFO  rutkouski.infohandling.reader.impl.CustomFileReaderImpl - Reading file is successful
+2021-11-06 08:22:58 [main] [readText] [45] INFO  rutkouski.infohandling.reader.impl.CustomFileReaderImpl - Reading file is successful

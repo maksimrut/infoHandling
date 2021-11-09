@@ -1,10 +1,7 @@
-package com.rutkouski.infohandling.composite.impl;
+package com.rutkouski.infohandling.composite;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import com.rutkouski.infohandling.composite.TextComponent;
-import com.rutkouski.infohandling.composite.TypeEnum;
 
 public class TextComposite implements TextComponent {
 
@@ -32,23 +29,18 @@ public class TextComposite implements TextComponent {
 	}
 
 	@Override
-	public int getComponentsSize() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
 	public TypeEnum getType() {
 		return type;
 	}
 
 	@Override
 	public String toStringRepresentation() {
-
 		StringBuilder sb = new StringBuilder();
+		
 		for (TextComponent component : list) {
 			sb.append(component.toStringRepresentation());
 		}
 		return sb.toString();
 	}
+
 }

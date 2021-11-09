@@ -10,9 +10,8 @@ public interface TextComponent {
 	
 	List<TextComponent> getComponents();
 	
-	int getComponentsSize();
-	
 	TypeEnum getType();
 	
 	String toStringRepresentation();
+	
 }
