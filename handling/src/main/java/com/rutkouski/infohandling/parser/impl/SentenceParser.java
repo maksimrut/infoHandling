@@ -6,24 +6,34 @@ import org.apache.logging.log4j.Logger;
 import com.rutkouski.infohandling.composite.TextComponent;
 import com.rutkouski.infohandling.composite.TextComposite;
 import com.rutkouski.infohandling.composite.TypeEnum;
-import com.rutkouski.infohandling.parser.TextParser;
+import com.rutkouski.infohandling.exception.InfoHandlingException;
+import com.rutkouski.infohandling.parser.InformationParser;
 
-public class SentenceParser implements TextParser {
+public class SentenceParser implements InformationParser {
 	
 	static Logger logger = LogManager.getLogger();
-	private static final String SENTENCE_DELIMETER_REGEX = "[\\!\\?\\.]+\\s+";
-	private TextParser wordParser = new LexemeParser();	
+	private static final String LEXEME_DELIMETER_REGEX = "\\s+";
+	private InformationParser nextParser;
+	
+	public SentenceParser(InformationParser nextParser) {
+		this.nextParser = nextParser;
+	}
 	
 	@Override
-	public void parse(String paragraph, TextComponent component) {
+	public TextComponent parse(String sentence) throws InfoHandlingException {
 		
-		String[] sentences = paragraph.split(SENTENCE_DELIMETER_REGEX);
-		TextComposite sentenceComposite = new TextComposite(TypeEnum.SENTENCE);
-		
-		for (String sentence : sentences) {
-			component.add(sentenceComposite);
-			nextChainLink(sentence, sentenceComposite, wordParser);
+		if (nextParser == null) {
+			logger.error("Sentence parser is not specified");
+			throw new InfoHandlingException("Lexeme parser is not specified");
 		}
-		logger.info("Sentence parsing was successful");
+		String[] lexemes = sentence.split(LEXEME_DELIMETER_REGEX);
+		TextComponent component = new TextComposite(TypeEnum.SENTENCE);
+		
+		for (String lexeme : lexemes) {
+			TextComponent lexemeComposite = nextParser.parse(lexeme);
+			component.add(lexemeComposite);
+		}
+		logger.info("Sentence parsing was successful: " + sentence);
+		return component;
 	}
 }

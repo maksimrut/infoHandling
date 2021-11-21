@@ -11,7 +11,4 @@ public interface TextComponent {
 	List<TextComponent> getComponents();
 	
 	TypeEnum getType();
-	
-	String toStringRepresentation();
-	
 }

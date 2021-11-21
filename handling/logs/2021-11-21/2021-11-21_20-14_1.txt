@@ -1,0 +1,27 @@
+2021-11-21 20:14:02 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: Hello
+2021-11-21 20:14:02 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: Hello
+2021-11-21 20:14:02 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: world
+2021-11-21 20:14:02 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: world.
+2021-11-21 20:14:02 [main] [parse] [36] INFO  rutkouski.infohandling.parser.impl.SentenceParser - Sentence parsing was successful: Hello world.
+2021-11-21 20:14:02 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: HHHHello
+2021-11-21 20:14:02 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: HHHHello
+2021-11-21 20:14:02 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: worlddd
+2021-11-21 20:14:02 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: worlddd.
+2021-11-21 20:14:02 [main] [parse] [36] INFO  rutkouski.infohandling.parser.impl.SentenceParser - Sentence parsing was successful: HHHHello worlddd.
+2021-11-21 20:14:49 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: Sentence1
+2021-11-21 20:14:49 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: Sentence1.
+2021-11-21 20:14:49 [main] [parse] [36] INFO  rutkouski.infohandling.parser.impl.SentenceParser - Sentence parsing was successful: Sentence1.
+2021-11-21 20:14:49 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: Seeentence3
+2021-11-21 20:14:49 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: Seeentence3?
+2021-11-21 20:14:49 [main] [parse] [36] INFO  rutkouski.infohandling.parser.impl.SentenceParser - Sentence parsing was successful: Seeentence3?
+2021-11-21 20:14:49 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: Seeentence2
+2021-11-21 20:14:49 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: Seeentence2!
+2021-11-21 20:14:49 [main] [parse] [36] INFO  rutkouski.infohandling.parser.impl.SentenceParser - Sentence parsing was successful: Seeentence2!
+2021-11-21 20:14:49 [main] [parse] [37] INFO  rutkouski.infohandling.parser.impl.ParagraphParser - Paragraph parsing was successful: Sentence1. Seeentence3? Seeentence2!
+2021-11-21 20:14:49 [main] [parse] [37] INFO  rutkouski.infohandling.parser.impl.TextParser - Text parsing was successful: Sentence1. Seeentence3? Seeentence2!
+2021-11-21 20:14:49 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: Seeentence3
+2021-11-21 20:14:49 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: Seeentence3?
+2021-11-21 20:14:49 [main] [parse] [36] INFO  rutkouski.infohandling.parser.impl.SentenceParser - Sentence parsing was successful: Seeentence3?
+2021-11-21 20:14:49 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: Seeentence2
+2021-11-21 20:14:49 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: Seeentence2!
+2021-11-21 20:14:49 [main] [parse] [36] INFO  rutkouski.infohandling.parser.impl.SentenceParser - Sentence parsing was successful: Seeentence2!

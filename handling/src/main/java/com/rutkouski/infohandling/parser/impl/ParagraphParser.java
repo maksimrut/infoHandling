@@ -6,24 +6,35 @@ import org.apache.logging.log4j.Logger;
 import com.rutkouski.infohandling.composite.TextComponent;
 import com.rutkouski.infohandling.composite.TextComposite;
 import com.rutkouski.infohandling.composite.TypeEnum;
-import com.rutkouski.infohandling.parser.TextParser;
+import com.rutkouski.infohandling.exception.InfoHandlingException;
+import com.rutkouski.infohandling.parser.InformationParser;
 
-public class ParagraphParser implements TextParser {
+public class ParagraphParser implements InformationParser {
 	
 	static Logger logger = LogManager.getLogger();
-	private static final String PARAGRAPH_REGEX = "\\n+[\\s]*";
-	private TextParser sentenceParser = new SentenceParser();
+	private static final String SENTENCE_DELIMETER_REGEX = "(?<=[\\?!\\.])\\s+";
+	private InformationParser nextParser;
+	
+	public ParagraphParser(InformationParser nextParser) {
+		this.nextParser = nextParser;
+	}
 	
 	@Override
-	public void parse(String text, TextComponent component) {
+	public TextComponent parse(String paragraph) throws InfoHandlingException {
 		
-		String[] paragraphs = text.strip().split(PARAGRAPH_REGEX);
-		TextComposite paragraphComposite = new TextComposite(TypeEnum.PARAGRAPH);
-		
-		for (String paragraph : paragraphs) {
-			component.add(paragraphComposite);
-			nextChainLink(paragraph, paragraphComposite, sentenceParser);
+		if (nextParser == null) {
+			logger.error("Sentence parser is not specified");
+			throw new InfoHandlingException("Sentence parser is not specified");
 		}
-		logger.info("Paragraph parsing was successful");
+		
+		String[] sentences = paragraph.split(SENTENCE_DELIMETER_REGEX);
+		TextComponent component = new TextComposite(TypeEnum.PARAGRAPH);
+		
+		for (String sentence : sentences) {
+			TextComponent sentenceComposite = nextParser.parse(sentence);
+			component.add(sentenceComposite);
+		}
+		logger.info("Paragraph parsing was successful: " + paragraph);
+		return component;
 	}
 }

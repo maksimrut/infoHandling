@@ -2,14 +2,23 @@ package com.rutkouski.infohandling.composite;
 
 public enum TypeEnum {
 	
-	TEXT,
-	PARAGRAPH,
-	SENTENCE,
-	LEXEME,
-	WORD,
-	EQUATION,
-	INTEGER_NUMBER,
-	FLOAT_NUMBER,
-	MATH_SIGN,
-	SYMBOL
+	TEXT("\n\t"),
+	PARAGRAPH(" "),
+	SENTENCE(" "),
+	LEXEME(""),
+	WORD(""),
+	EXPRESSION(""),
+	SYMBOL(""),
+	PUNCTUATION(""),
+	MATH_SIGN("");
+	
+	private final String delimeter;
+	
+	TypeEnum(String delimeter) {
+		this.delimeter = delimeter;
+	}
+	
+	public String getDelimeter() {
+		return delimeter;
+	}
 }

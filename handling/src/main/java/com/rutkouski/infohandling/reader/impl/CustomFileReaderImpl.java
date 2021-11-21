@@ -21,14 +21,14 @@ public class CustomFileReaderImpl implements CustomFileReader {
 	@Override
 	public String readText(String filePath) throws InfoHandlingException {
 		
-		ClassLoader loader = getClass().getClassLoader();
-		URL resourse = loader.getResource(filePath);
-		String path = new File(resourse.getFile()).getAbsolutePath();
-		
-		if (filePath == null || Files.notExists(Paths.get(path))) {
+		if (filePath == null || Files.notExists(Paths.get(filePath)) 
+				|| filePath.length() == 0) {
 			logger.error("File is not found " + filePath);
 			throw new InfoHandlingException("File is not found " + filePath);
 		}
+		ClassLoader loader = getClass().getClassLoader();
+		URL resourse = loader.getResource(filePath);
+		String path = new File(resourse.getFile()).getAbsolutePath();
 		
 		List<String> stringlines;
 		
@@ -42,7 +42,7 @@ public class CustomFileReaderImpl implements CustomFileReader {
 		for (String line : stringlines) {
 			lines.append(line);
 		}
-		logger.info("Reading file is successful");
+		logger.info("Reading file is successful " + filePath);
 		return lines.toString();
 	}
 }

@@ -7,13 +7,13 @@ import com.rutkouski.infohandling.exception.InfoHandlingException;
 
 public interface TextCompositeAction {
 	
-	TextComponent sortBySentenceQuantity(TextComponent component);
+	void sortParagraphsBySentenceQuantity(TextComponent text) throws InfoHandlingException;
 	
-	List<TextComponent> findLongestWordSentences(TextComponent component);
+	List<TextComponent> findLongestWordSentences(TextComponent text) throws InfoHandlingException;
 	
-	void deleteSentencesWordsLessThan(TextComponent text, int minWordsQuantity) throws InfoHandlingException;
+	void removeSentencesWordsLessThan(TextComponent text, int minWordsQuantity) throws InfoHandlingException;
 	
-	List<TextComponent> findCountIdenticalWords(TextComponent component);
+	Long findCountIdenticalWords(TextComponent text) throws InfoHandlingException;
 	
 	long countVowels(TextComponent sentence) throws InfoHandlingException;
 	

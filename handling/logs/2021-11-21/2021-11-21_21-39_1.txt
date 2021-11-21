@@ -1,0 +1,72 @@
+2021-11-21 21:39:01 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: Fisrt
+2021-11-21 21:39:01 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: Fisrt
+2021-11-21 21:39:01 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: sentence
+2021-11-21 21:39:01 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: sentence
+2021-11-21 21:39:01 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: with
+2021-11-21 21:39:01 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: with
+2021-11-21 21:39:01 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: some
+2021-11-21 21:39:01 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: some
+2021-11-21 21:39:01 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: words
+2021-11-21 21:39:01 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: words.
+2021-11-21 21:39:01 [main] [parse] [36] INFO  rutkouski.infohandling.parser.impl.SentenceParser - Sentence parsing was successful: Fisrt sentence with some words.
+2021-11-21 21:39:01 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: One
+2021-11-21 21:39:01 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: One
+2021-11-21 21:39:01 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: more
+2021-11-21 21:39:01 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: more
+2021-11-21 21:39:01 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: sentence
+2021-11-21 21:39:01 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: sentence
+2021-11-21 21:39:01 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: with
+2021-11-21 21:39:01 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: with
+2021-11-21 21:39:01 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: info
+2021-11-21 21:39:01 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: info!
+2021-11-21 21:39:01 [main] [parse] [36] INFO  rutkouski.infohandling.parser.impl.SentenceParser - Sentence parsing was successful: One more sentence with info!
+2021-11-21 21:39:01 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: And
+2021-11-21 21:39:01 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: And
+2021-11-21 21:39:01 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: third
+2021-11-21 21:39:01 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: third
+2021-11-21 21:39:01 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: one
+2021-11-21 21:39:01 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: one
+2021-11-21 21:39:01 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: with
+2021-11-21 21:39:01 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: with
+2021-11-21 21:39:01 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: words
+2021-11-21 21:39:01 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: words.
+2021-11-21 21:39:01 [main] [parse] [36] INFO  rutkouski.infohandling.parser.impl.SentenceParser - Sentence parsing was successful: And third one with words.
+2021-11-21 21:39:01 [main] [parse] [37] INFO  rutkouski.infohandling.parser.impl.ParagraphParser - Paragraph parsing was successful: Fisrt sentence with some words. One more sentence with info! And third one with words.
+2021-11-21 21:39:01 [main] [parse] [37] INFO  rutkouski.infohandling.parser.impl.TextParser - Text parsing was successful: Fisrt sentence with some words. One more sentence with info! And third one with words.
+2021-11-21 21:39:38 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: Fisrt
+2021-11-21 21:39:38 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: Fisrt
+2021-11-21 21:39:38 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: sentence
+2021-11-21 21:39:38 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: sentence
+2021-11-21 21:39:38 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: with
+2021-11-21 21:39:38 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: with
+2021-11-21 21:39:38 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: some
+2021-11-21 21:39:38 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: some
+2021-11-21 21:39:38 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: words
+2021-11-21 21:39:38 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: words.
+2021-11-21 21:39:38 [main] [parse] [36] INFO  rutkouski.infohandling.parser.impl.SentenceParser - Sentence parsing was successful: Fisrt sentence with some words.
+2021-11-21 21:39:38 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: And
+2021-11-21 21:39:38 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: And
+2021-11-21 21:39:38 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: one
+2021-11-21 21:39:38 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: one
+2021-11-21 21:39:38 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: more
+2021-11-21 21:39:38 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: more
+2021-11-21 21:39:38 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: sentence
+2021-11-21 21:39:38 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: sentence
+2021-11-21 21:39:38 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: with
+2021-11-21 21:39:38 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: with
+2021-11-21 21:39:38 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: info
+2021-11-21 21:39:38 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: info!
+2021-11-21 21:39:38 [main] [parse] [36] INFO  rutkouski.infohandling.parser.impl.SentenceParser - Sentence parsing was successful: And one more sentence with info!
+2021-11-21 21:39:38 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: And
+2021-11-21 21:39:38 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: And
+2021-11-21 21:39:38 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: third
+2021-11-21 21:39:38 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: third
+2021-11-21 21:39:38 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: one
+2021-11-21 21:39:38 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: one
+2021-11-21 21:39:38 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: with
+2021-11-21 21:39:38 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: with
+2021-11-21 21:39:38 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.WordParser - Word parsing was successful: words
+2021-11-21 21:39:38 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: words.
+2021-11-21 21:39:38 [main] [parse] [36] INFO  rutkouski.infohandling.parser.impl.SentenceParser - Sentence parsing was successful: And third one with words.
+2021-11-21 21:39:38 [main] [parse] [37] INFO  rutkouski.infohandling.parser.impl.ParagraphParser - Paragraph parsing was successful: Fisrt sentence with some words. And one more sentence with info! And third one with words.
+2021-11-21 21:39:38 [main] [parse] [37] INFO  rutkouski.infohandling.parser.impl.TextParser - Text parsing was successful: Fisrt sentence with some words. And one more sentence with info! And third one with words.
