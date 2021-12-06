@@ -1,1 +1,0 @@
-2021-11-06 08:08:23 [main] [readText] [45] INFO  rutkouski.infohandling.reader.impl.CustomFileReaderImpl - Reading file is successful
