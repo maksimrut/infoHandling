@@ -1,7 +1,0 @@
-2021-11-20 17:01:41 [main] [parse] [22] INFO  rutkouski.infohandling.parser.impl.LetterParser - Letter parsing was successful: Hello
-2021-11-20 17:01:41 [main] [parse] [44] INFO  rutkouski.infohandling.parser.impl.WordWithPunctuationParser - Word with punctuation parsing was successful: Hello
-2021-11-20 17:01:41 [main] [parse] [22] INFO  rutkouski.infohandling.parser.impl.MathSignParser - Equation parsing was successful: +*/-
-2021-11-20 17:01:41 [main] [parse] [22] INFO  rutkouski.infohandling.parser.impl.LetterParser - Letter parsing was successful: world
-2021-11-20 17:01:41 [main] [parse] [44] INFO  rutkouski.infohandling.parser.impl.WordWithPunctuationParser - Word with punctuation parsing was successful: world
-2021-11-20 17:01:41 [main] [parse] [34] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: Hello+*/-world
-2021-11-20 17:01:41 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.SentenceParser - Sentence parsing was successful: Hello+*/-world
