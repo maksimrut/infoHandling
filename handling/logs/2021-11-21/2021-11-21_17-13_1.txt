@@ -1,6 +1,0 @@
-2021-11-21 17:13:44 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: Hello
-2021-11-21 17:13:44 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: world.
-2021-11-21 17:13:44 [main] [parse] [36] INFO  rutkouski.infohandling.parser.impl.SentenceParser - Sentence parsing was successful: Hello world.
-2021-11-21 17:13:44 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: Hello
-2021-11-21 17:13:44 [main] [parse] [51] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: worldooo.
-2021-11-21 17:13:44 [main] [parse] [36] INFO  rutkouski.infohandling.parser.impl.SentenceParser - Sentence parsing was successful: Hello worldooo.

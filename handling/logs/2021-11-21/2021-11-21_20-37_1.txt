@@ -1,1 +1,0 @@
-2021-11-21 20:37:50 [main] [readText] [26] ERROR rutkouski.infohandling.reader.impl.CustomFileReaderImpl - File is not found doesntExist.txt.txt
