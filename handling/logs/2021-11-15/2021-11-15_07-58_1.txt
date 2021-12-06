@@ -1,6 +1,0 @@
-2021-11-15 07:58:50 [main] [parse] [22] INFO  rutkouski.infohandling.parser.impl.LetterParser - Letter parsing was successful
-2021-11-15 07:58:50 [main] [parse] [44] INFO  rutkouski.infohandling.parser.impl.WordWithPunctuationParser - Word with punctuation parsing was successfulcom.rutkouski.infohandling.composite.TextComposite@49872d67
-2021-11-15 07:58:50 [main] [parse] [44] INFO  rutkouski.infohandling.parser.impl.WordWithPunctuationParser - Word with punctuation parsing was successfulcom.rutkouski.infohandling.composite.TextComposite@56303b57
-2021-11-15 07:58:50 [main] [parse] [34] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful
-2021-11-15 07:58:50 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.SentenceParser - Sentence parsing was successful
-2021-11-15 07:58:50 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.ParagraphParser - Paragraph parsing was successful
