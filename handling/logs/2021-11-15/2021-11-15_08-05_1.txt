@@ -1,5 +1,0 @@
-2021-11-15 08:05:29 [main] [parse] [22] INFO  rutkouski.infohandling.parser.impl.LetterParser - Letter parsing was successful: Hello
-2021-11-15 08:05:29 [main] [parse] [44] INFO  rutkouski.infohandling.parser.impl.WordWithPunctuationParser - Word with punctuation parsing was successful: Hello
-2021-11-15 08:05:29 [main] [parse] [44] INFO  rutkouski.infohandling.parser.impl.WordWithPunctuationParser - Word with punctuation parsing was successful: w.
-2021-11-15 08:05:29 [main] [parse] [34] INFO  rutkouski.infohandling.parser.impl.LexemeParser - Lexeme parsing was successful: Hellow.
-2021-11-15 08:05:29 [main] [parse] [27] INFO  rutkouski.infohandling.parser.impl.SentenceParser - Sentence parsing was successful: Hellow.
